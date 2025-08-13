@@ -1,8 +1,7 @@
 # price-prediction-model
 A model to predict price movements and targets for stocks &amp; crypto. The algorithm identifies opportunities by analyzing volume, support, and resistance during classic breakout trading strategies.
 
-# Price Prediction Model 
-— Breakout Strategy (Stocks & Crypto)
+# Price Prediction Model — Breakout Strategy (Stocks & Crypto)
 
 ## 1) Overview
 
