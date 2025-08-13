@@ -2,12 +2,6 @@
 A model to predict price movements and targets for stocks &amp; crypto. The algorithm identifies opportunities by analyzing volume, support, and resistance during classic breakout trading strategies.
 
 # Price Prediction Model — Breakout Strategy (Stocks & Crypto)
----
-![cover](docs/cover.png)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.10+-informational.svg)](#)
-[![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)](#)
 
 ## 1) Overview
 
