@@ -27,10 +27,29 @@
 - ทำความสะอาดและจัดรูปแบบข้อมูลให้อยู่ใน Time Series  
 - สร้างฟีเจอร์จาก Technical Indicators เช่น:
   - SMA (Simple Moving Average): ค่าเฉลี่ยราคาย้อนหลังแบบง่ายๆ ช่วยดูแนวโน้ม
+    *SMA (Simple Moving Average)**  
+    - SMA 20 วัน → แนวโน้มระยะสั้น  
+    - SMA 50 วัน → แนวโน้มกลาง  
+    - SMA 200 วัน → แนวโน้มยาว  
   - EMA (Exponential Moving Average) : คล้าย SMA แต่ให้น้ำหนักกับราคาล่าสุดมากกว่า
+    **EMA (Exponential Moving Average)**  
+    - EMA 12 วัน (สั้น, ไวต่อราคา)  
+    - EMA 26 วัน (ยาวกว่า, ใช้คู่กับ EMA 12)
   - RSI (Relative Strength Index)
+    **RSI (Relative Strength Index)**  
+    - RSI 14 วัน (มาตรฐานทั่วไป)  
+    - RSI > 70 → Overbought  
+    - RSI < 30 → Oversold  
   - MACD
+    **MACD (Moving Average Convergence Divergence)**  
+    - MACD line = EMA(12) – EMA(26)  
+    - Signal line = EMA(9) ของ MACD  
+    - ใช้ตรวจจับสัญญาณตัดขึ้น (Bullish) / ตัดลง (Bearish)  
   - Volume-based signals
+    **Volume-based Signals**  
+    - ราคาขึ้นพร้อม Volume เพิ่มขึ้น → แนวโน้มแข็งแรง  
+    - ราคาลงพร้อม Volume เพิ่มขึ้น → แนวโน้มลงจริง  
+    - ใช้เป็นตัวเสริมยืนยัน (Confirmation)  
 
 ---
 
