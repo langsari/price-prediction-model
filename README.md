@@ -26,8 +26,8 @@
 - ดึงข้อมูลราคาหุ้นจาก Yahoo Finance (`SET.BK`, หรือหุ้นรายตัวในตลาด)  
 - ทำความสะอาดและจัดรูปแบบข้อมูลให้อยู่ใน Time Series  
 - สร้างฟีเจอร์จาก Technical Indicators เช่น:
-  - SMA (Simple Moving Average)
-  - EMA (Exponential Moving Average)
+  - SMA (Simple Moving Average): ค่าเฉลี่ยราคาย้อนหลังแบบง่ายๆ ช่วยดูแนวโน้ม
+  - EMA (Exponential Moving Average) : คล้าย SMA แต่ให้น้ำหนักกับราคาล่าสุดมากกว่า
   - RSI (Relative Strength Index)
   - MACD
   - Volume-based signals
@@ -38,16 +38,19 @@
 โปรเจคนี้จะทดลองโมเดลหลายแบบเพื่อเปรียบเทียบผลลัพธ์:
 
 - **Regression Models**
+  ใช้ในการคาดการณ์ราคาหุ้นล่วงหน้า (Price Prediction)
   - Linear Regression
   - Random Forest Regressor
   - XGBoost
 
 - **Classification Models**
+  ใช้จำแนกสัญญาณ เช่น “ซื้อ/ขาย/ถือ” (Buy / Sell / Hold)
   - Logistic Regression (ทำนาย Buy / Sell / Hold)
   - Support Vector Machine (SVM)
   - Neural Network (MLP)
 
 - **Time Series Models**
+  เหมาะกับข้อมูลราคาหุ้นที่เป็นลำดับเวลา (Time Series) โดยเฉพาะ LSTM ซึ่งใช้ได้ดีกับแนวโน้มระยะยาว
   - ARIMA (ฐานเปรียบเทียบ)
   - LSTM (Long Short-Term Memory)
   - GRU (Gated Recurrent Unit)
