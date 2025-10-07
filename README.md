@@ -1,6 +1,6 @@
 # Price Prediction Model (SET Index + Machine Learning)
 price-prediction-model A model to predict price movements and targets for stocks . The algorithm identifies opportunities by analyzing volume, support, and resistance during classic breakout trading strategies.
-โปรเจคนี้เป็นการพัฒนา 
+
 **โมเดลคาดการณ์ราคาหุ้นในตลาดหลักทรัพย์แห่งประเทศไทย (SET Index)**  
 โดยใช้ทั้ง **Technical Indicators** (SMA, EMA, Support, Resistance, Breakout)  
 และการประยุกต์ใช้ **Machine Learning** เพื่อเพิ่มความแม่นยำในการทำนายแนวโน้มราคา
